@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Responsive HTML5 Page Layout Template</title>
+    <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="logo"><img src="/logo.png">PARK IT&nbsp;</div>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a>
+                              <li><a href="http://localhost/DatabaseGUI2/index.html">User</a>
+      				<li><a href="http://localhost/DatabaseGUI2/carpark.html">Carpark</a>
+      				<li><a href="http://localhost/DatabaseGUI2/mrt.html">MRT</a>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<strong>Finding the nearest transfer route into CBD</strong>
+	</section>
+	<section id="pageContent">
+		<main role="main">
+			<article>
+				<h2>Insert New MRT Here</h2>
+                        <form action="insertmrt.php" method="post">
+                              MRT Code    : <input type="text" name ="mrtCode">
+                              <br/><br/>
+                              MRT Name : <input type="text" name = "name">
+                              <br/><br/>
+                              Line Colour : <input type ="text" name = "colour">
+                              <br/><br/>
+                              X-Coordinate     : <input type ="text" name = "xcoord">
+                              <br/><br/>
+                              Y-Coordinate     : <input type ="text" name = "ycoord">
+                              <br/><br/>
+                              Latitude-Coordinate     : <input type ="text" name = "latcoord">
+                              <br/><br/>
+                              Longtitude-Coordinate     : <input type ="text" name = "longcoord">
+                              <br/><br/>
+                              <input type = "submit"  value="Insert">
+                        </form>
+			</article>
+
+
+		</main>
+		<aside>
+
+		</aside>
+	</section>
+	<footer>
+		<p>&copy; Copyright to | <a href="https://html5-templates.com/" target="_blank" rel="nofollow">Iszwan</a></p>
+
+	</footer>
+
+
+</body>
+
+</html>
